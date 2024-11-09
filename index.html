@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <!-- <h1> | Calculadora |</h1> -->
+    <div class="calculadora">
+        <input type="text" id="pantalla" class="pantalla" readonly>
+    
+        <div class="botones">
+          <button onclick="escribir('1')">1</button>
+          <button onclick="escribir('2')">2</button>
+          <button onclick="escribir('3')">3</button>
+          <button onclick="escribir('4')">4</button>
+          <button onclick="escribir('5')">5</button>
+          <button onclick="escribir('6')">6</button>
+          <button onclick="escribir('7')">7</button>
+          <button onclick="escribir('8')">8</button>
+          <button onclick="escribir('9')">9</button>
+          <button onclick="escribir('0')">0</button>
+          <button onclick="borrar()">C</button>
+          <button onclick="escribir('/')">/</button>
+          <button onclick="escribir('*')">*</button>
+          <button onclick="escribir('+')">+</button>
+          <button onclick="escribir('-')">-</button>
+          <button onclick="escribir('.')">.</button>
+          <button onclick="calcular()">=</button>
+        </div>
+      </div>
+    
+</body>
+</html>
